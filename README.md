@@ -1,2 +1,10 @@
 # Fully-Differential-Two-Stage-OTA-Design-and-Tapeout-in-180nm-CMOS-Technology
+Overview:
+This repository presents the design, simulation, layout and verification of a CMOS TWO Stage Operational Transconductance Amplifier (OTA) using Cadence Virtuoso.
+The design started with single ended which is then upgraded into fully differential using resistive and buffered resistive common mode feedback(CMFB) networks for both the stages to improve output voltage swing, power supply rejection ratio(PSSR) and common mode rejection ratio(CMRR).  
+Objective:
 The operational amplifier is the most fundamental building block in analog and mixed-signal IC design. Since nearly every analog subsystem, from simple filters to high-resolution data converters, is built around an op-amp core, designing one from the transistor level up is a core skill for any analog IC designer.
+Design Parameters / Specifications:
+A two-stage op-amp design revolves around balancing the critical parameters like DC open loop gain, Unity gain bandwidth(UGB), Phase margin(PM)/ stability, slew rate, offset voltage, PSSR, CMMR, power consumption, input/output voltage swing and Area, since improving one often degrades another.
+Design:
+The gm/ID methodology is used for MOSFET sizing which provides a more accurate and practical approach compared to conventional (V_{OV}) and square-law equations. Unlike the square-law model, gm/ID considers the actual device behavior across weak, moderate, and strong inversion regions, including short-channel and non-ideal effects. It enables direct optimization of important parameters such as transconductance, current efficiency, gain, speed, and power consumption. By using technology-specific characterization data, the method also provides more realistic transistor dimensions for a given operating point. Therefore, gm/ID offers better predictability and robustness when implementing the designed circuit in an actual CMOS technology. This makes it particularly suitable for designing low-power, high-gain analog circuits such as the two-stage OTA.
