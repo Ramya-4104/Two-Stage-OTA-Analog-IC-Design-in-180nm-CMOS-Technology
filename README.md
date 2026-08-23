@@ -1,4 +1,4 @@
-# Fully-Differential-Two-Stage-OTA-Design-and-Tapeout-in-180nm-CMOS-Technology
+# Two-Stage-OTA-Analog-IC-Design-in-180nm-CMOS-Technology
 Overview:
 This repository presents the design, simulation, layout and verification of a CMOS TWO Stage Operational Transconductance Amplifier (OTA) using Cadence Virtuoso.
 The design started with single ended which is then upgraded into fully differential using resistive and buffered resistive common mode feedback(CMFB) networks for both the stages to improve output voltage swing, power supply rejection ratio(PSSR) and common mode rejection ratio(CMRR).  
