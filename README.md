@@ -95,7 +95,7 @@ The transistor-level schematic used for the design is shown below.
 
 ## 5.1 Circuit Diagram
 
-![Two-Stage OTA Schematic](assets/two_stage_ota_schematic.png)
+![Two-Stage OTA Schematic]
 <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/502bfc52-8cb8-456b-be3f-e1c62227dd65" />
 
 ---
