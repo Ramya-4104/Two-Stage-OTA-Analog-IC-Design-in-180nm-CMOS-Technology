@@ -12,6 +12,8 @@ This project focuses on the design of a **two-stage single-ended OTA** targeting
 
 The design was developed at transistor level using **Cadence Virtuoso**, with device dimensions and operating points selected using the **gm/ID methodology** rather than relying only on iterative transistor-width/length tuning.
 
+The design was carried out under the guidance of **Prof. Dr. Mahima Arrawatia, IIT Guwahati**.
+
 ### Design Flow
 
 The OTA design was developed in the following stages:
