@@ -153,17 +153,12 @@ This reduces trial-and-error iterations and makes the design process easier to r
 
 The gm/ID characterization plots used for device sizing will be added to the repository here:
 
-```text
-assets/gm_id/
-├── gm_id_vs_id.png
-├── gm_id_vs_vgs.png
-├── current_density_vs_vgs.png
-└── [additional gm/ID plots]
-```
+NMOS
+<img width="1920" height="1080" alt="Screenshot 2026-06-05 165724" src="https://github.com/user-attachments/assets/2383ae97-c881-4bf9-91b5-8f5d8bf05cb9" />
 
-> **Note:** The exact plot filenames can be updated after the gm/ID plots are uploaded to the repository.
+PMOS
+<img width="1920" height="1080" alt="Screenshot 2026-06-06 122339" src="https://github.com/user-attachments/assets/e6d8f117-462a-4dc4-9b9c-4bd13d76de89" />
 
----
 
 ## 5.3 Technology
 
