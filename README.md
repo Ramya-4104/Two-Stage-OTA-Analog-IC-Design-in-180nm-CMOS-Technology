@@ -95,7 +95,7 @@ The transistor-level schematic used for the design is shown below.
 
 ## 5.1 Circuit Diagram
 
-Single Two-Stage OTA Schematic 
+Single Ended Two-Stage OTA Schematic 
 <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/502bfc52-8cb8-456b-be3f-e1c62227dd65" />
 
 Fully Differential Two-Stage OTA Schematic 
@@ -199,26 +199,26 @@ The project description reports the following key performance values for the two
 
 # 6. Simulation Results
 
-## 6.1 AC Gain Response
+## 6.1 AC Gain Response and Phase
 
 The AC response shows the OTA output magnitude over frequency. The documented plot reaches approximately **176.773 V/V** at low frequency. The separate loop-gain plot shows **76.8574 dB at 2.5704 Hz**, which is the low-frequency gain figure used for the project-level summary.
 
-![AC Gain Response](assets/ac_gain_response.png)
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/61224558-49bc-43cf-985a-d81983ea0e97" />
 
-## 6.2 Loop Gain and Phase
-
-The loop-gain response was evaluated to determine the stability characteristics of the compensated OTA.
-
-![Loop Gain and Phase](assets/loop_gain_phase.png)
+## 6.2 Phase Margin and Unity Gain Frequency
 
 The documented stability measurement gives:
 
 - **Phase Margin:** 61.464° (reported as approximately **60°** in the project description)
 - **Unity-gain / phase-margin frequency:** approximately **35 MHz**
 
-![Phase Margin](assets/phase_margin.png)
+Phase Margin
+<img width="489" height="590" alt="image" src="https://github.com/user-attachments/assets/9aedc97e-aa84-49fc-91a8-1e6996f801ec" />
 
-![Phase Margin Frequency](assets/phase_margin_frequency.png)
+
+Phase Margin Frequency
+<img width="483" height="595" alt="image" src="https://github.com/user-attachments/assets/15308d6c-171c-4a03-b55f-906a3ae407cf" />
+
 
 ## 6.3 Common-Mode Response and CMRR
 
@@ -234,7 +234,11 @@ The documented values are:
 - $A_{cm} = 0.017807$
 - **CMRR = 79.936 dB**
 
-![Common Mode Gain](assets/common_mode_gain.png)
+Common Mode Gain (Acm)
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/5dfd0998-8790-4ce3-984e-8feab1ae06ed" />
+
+Differential Mode Gain (Adm)
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/fc6bb5e2-e67f-46f3-ba60-e4b3241cbf11" />
 
 ---
 
@@ -252,7 +256,9 @@ A DC sweep was performed to observe the output voltage response across the input
 
 The shown simulation reaches approximately **1.743 V** at an input value of approximately **1.789 V**.
 
-![Output Voltage Sweep](assets/output_swing.png)
+Output Voltage Sweep
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/f7f45867-be47-42ba-99a9-8cd52bc597f6" />
+
 
 ---
 
