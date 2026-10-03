@@ -210,7 +210,6 @@ The documented stability measurement gives:
 Phase Margin
 <img width="489" height="590" alt="image" src="https://github.com/user-attachments/assets/9aedc97e-aa84-49fc-91a8-1e6996f801ec" />
 
-
 Phase Margin Frequency
 <img width="483" height="595" alt="image" src="https://github.com/user-attachments/assets/15308d6c-171c-4a03-b55f-906a3ae407cf" />
 
@@ -310,6 +309,8 @@ The layout stage will focus on:
 | DRC/LVS/PEX flow | Completed  |
 
 ---
+Layout
+<img width="917" height="642" alt="Screenshot 2026-07-12 145154" src="https://github.com/user-attachments/assets/2dbfac48-517d-4568-a59a-15a251e6732d" />
 
 # 8. Tools
 
