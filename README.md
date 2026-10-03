@@ -308,10 +308,10 @@ The layout stage will focus on:
 | Full-custom layout | Completed |
 | DRC/LVS/PEX flow | Completed  |
 
----
 Layout
 <img width="917" height="642" alt="Screenshot 2026-07-12 145154" src="https://github.com/user-attachments/assets/2dbfac48-517d-4568-a59a-15a251e6732d" />
 
+---
 # 8. Tools
 
 - **Cadence Virtuoso** — schematic design and analog simulation
