@@ -95,8 +95,17 @@ The transistor-level schematic used for the design is shown below.
 
 ## 5.1 Circuit Diagram
 
-![Two-Stage OTA Schematic]
+Single Two-Stage OTA Schematic 
 <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/502bfc52-8cb8-456b-be3f-e1c62227dd65" />
+
+Fully Differential Two-Stage OTA Schematic 
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/e7cc8e27-53d3-43ba-9419-56343c96f662" />
+
+Buffered Resistive CMFB Circuit
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/a6e868e0-ee8f-4c99-942e-bc5917ee383a" />
+
+Resistive CMFB Circuit
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/d70dc85b-0fcf-4c18-8416-eeb24739fd9e" />
 
 ---
 
