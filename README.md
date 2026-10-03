@@ -297,61 +297,11 @@ The layout stage will focus on:
 | Gain / phase analysis | Completed |
 | CMRR / PSRR analysis | Completed |
 | Full-custom layout | Completed |
-| DRC/LVS/PEX flow | Completed / documented |
-| Post-layout results | **[To be added]** |
+| DRC/LVS/PEX flow | Completed  |
 
 ---
 
-# 8. Project Outputs
-
-The repository can contain the following project artifacts:
-
-```text
-Two-Stage-OTA-Analog-IC-Design-in-180nm-CMOS-Technology/
-│
-├── README.md
-│
-├── assets/
-│   ├── architecture.png
-│   ├── two_stage_ota_schematic.png
-│   ├── ac_gain_response.png
-│   ├── loop_gain_phase.png
-│   ├── common_mode_gain.png
-│   ├── phase_margin.png
-│   ├── phase_margin_frequency.png
-│   ├── output_swing.png
-│   │
-│   ├── gm_id/
-│   │   └── [gm/ID plots]
-│   │
-│   └── layout/
-│       └── [layout and verification results]
-│
-├── schematic/
-│   └── [Cadence schematic files]
-│
-├── simulation/
-│   └── [simulation setup / results]
-│
-└── layout/
-    └── [layout files and verification reports]
-```
-
----
-
-# 9. Future Work
-
-- Complete and document the physical layout.
-- Perform DRC and LVS verification.
-- Perform parasitic extraction.
-- Run post-layout AC/DC and stability simulations.
-- Compare pre-layout and post-layout performance.
-- Add complete gm/ID characterization plots.
-- Document final area, power, gain, bandwidth and stability results.
-
----
-
-# 11. Tools
+# 8. Tools
 
 - **Cadence Virtuoso** — schematic design and analog simulation
 - **Spectre** — transistor-level circuit simulation
@@ -360,15 +310,11 @@ Two-Stage-OTA-Analog-IC-Design-in-180nm-CMOS-Technology/
 
 ---
 
-# 12. Author
+# 9. Author
 
-**Ramya**  
+**K Ramya**  
 B.Tech — Electronics and Communication Engineering  
 Indian Institute of Technology Guwahati
 
----
 
-## Note
-
-This repository documents the design methodology, transistor-level implementation and simulation results of the OTA. Numerical results are based on the current documented simulation data; final physical-design and post-layout results will be added as the project progresses.
 
