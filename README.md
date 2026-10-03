@@ -21,7 +21,6 @@ The OTA design was developed in the following stages:
 3. **Single-ended OTA implementation:** The design was further developed as a **two-stage single-ended OTA** and evaluated through transistor-level simulations and physical-design steps.
 4. **Learning/reference:** The design approach and CMFB concepts were developed by following the NPTEL course **“Analog IC Design” by Dr. Nagendra Krishnapura**.
 
-![OTA Architecture](assets/architecture.png)
 
 ---
 
@@ -97,6 +96,7 @@ The transistor-level schematic used for the design is shown below.
 ## 5.1 Circuit Diagram
 
 ![Two-Stage OTA Schematic](assets/two_stage_ota_schematic.png)
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/502bfc52-8cb8-456b-be3f-e1c62227dd65" />
 
 ---
 
