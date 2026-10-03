@@ -308,7 +308,7 @@ The layout stage will focus on:
 | Full-custom layout | Completed |
 | DRC/LVS/PEX flow | Completed  |
 
-Layout
+
 <img width="917" height="642" alt="Screenshot 2026-07-12 145154" src="https://github.com/user-attachments/assets/2dbfac48-517d-4568-a59a-15a251e6732d" />
 
 ---
@@ -321,7 +321,12 @@ Layout
 
 ---
 
-# 9. Author
+# 9. References 
+
+NPTEL Course - Analog IC Design by Prof. Dr. Nagendra Krishnapura
+
+---
+# 10. Author
 
 **K Ramya**  
 B.Tech — Electronics and Communication Engineering  
