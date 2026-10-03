@@ -193,18 +193,23 @@ The project description reports the following key performance values for the two
 ---
 
 # 6. Simulation Results
+## 6.1 DC Analysis
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/33e746d1-abe8-4934-8175-68918df24eea" />
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/88e1874d-a310-4e77-8d3f-fe84f14fa60c" />
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/f9e03b85-20eb-4a6b-9b71-dd30c553ac7b" />
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/5ddda434-e152-4814-9a33-f6ca980b2a84" />
 
-## 6.1 AC Gain Response and Phase
+## 6.2 AC Gain Response and Phase
 
 The AC response shows the OTA output magnitude over frequency. The documented plot reaches approximately **176.773 V/V** at low frequency. The separate loop-gain plot shows **76.8574 dB at 2.5704 Hz**, which is the low-frequency gain figure used for the project-level summary.
 
 <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/61224558-49bc-43cf-985a-d81983ea0e97" />
 
-## 6.2 Phase Margin and Unity Gain Frequency
+## 6.3 Phase Margin and Unity Gain Frequency
 
 The documented stability measurement gives:
 
-- **Phase Margin:** 61.464° (reported as approximately **60°** in the project description)
+- **Phase Margin:** 61.464° 
 - **Unity-gain / phase-margin frequency:** approximately **35 MHz**
 
 Phase Margin
@@ -214,7 +219,7 @@ Phase Margin Frequency
 <img width="483" height="595" alt="image" src="https://github.com/user-attachments/assets/15308d6c-171c-4a03-b55f-906a3ae407cf" />
 
 
-## 6.3 Common-Mode Response and CMRR
+## 6.4 Common-Mode Response and CMRR
 
 The differential-mode and common-mode responses were used to calculate CMRR as:
 
@@ -234,17 +239,15 @@ Common Mode Gain (Acm)
 Differential Mode Gain (Adm)
 <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/fc6bb5e2-e67f-46f3-ba60-e4b3241cbf11" />
 
----
 
-## 6.4 Input Offset
+## 6.5 Input Offset
 
 The reported input offset voltage from the current simulation results is:
 
 **Input Offset = 0.391 mV**
 
----
 
-## 6.5 Output Voltage Sweep
+## 6.6 Output Voltage Sweep
 
 A DC sweep was performed to observe the output voltage response across the input range.
 
@@ -253,6 +256,9 @@ The shown simulation reaches approximately **1.743 V** at an input value of appr
 Output Voltage Sweep
 <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/f7f45867-be47-42ba-99a9-8cd52bc597f6" />
 
+
+## 6.7 Power Consumption
+<img width="923" height="238" alt="image" src="https://github.com/user-attachments/assets/75e0d1b8-8351-4700-9bbb-20e99169c5ed" />
 
 ---
 
